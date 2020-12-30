@@ -1,0 +1,46 @@
+@import 'reset';
+@import 'variables';
+@import 'todolist';
+@import 'calculadora';
+
+
+a{
+    text-decoration: none;
+}
+
+a{
+    font-size: 1.2em;
+    color: $dark-1;
+    border: 1px solid $orange-1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    letter-spacing: 1px;
+}
+.back{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+a:hover{
+    background-color: $orange-1;
+    color: $light;
+    border:none;
+    transition: 0.2s linear;
+    transform: scale(1.5);
+}
+
+    
+.inicio{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: center;
+    margin-top: 300px;
+     
+    h1{
+        font-size: 2.5em;  
+        margin-bottom: 80px;
+        color: $dark-1;
+    }
+}
+
